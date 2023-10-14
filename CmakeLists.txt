@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
 project(stb)
 
-add_library(stb_image STATIC stb_image.cpp)
-add_library(stb_perlin STATIC stb_perlin.cpp)
+add_library(stb_image STATIC stb_image.c)
+add_library(stb_perlin STATIC stb_perlin.c)
